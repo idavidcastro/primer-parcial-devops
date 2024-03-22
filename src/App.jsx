@@ -8,8 +8,10 @@ function App() {
 
   return (
     <>
-      <h1 style={{ textAlign: "center" }}>¡Hola Mundo!</h1>
-      <p>Iván David Castro Blanco</p>
+      <div className="container">
+        <h1 className="title">Hola Mundo</h1>
+        <p className="description"></p>
+      </div>
     </>
   );
 }
