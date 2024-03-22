@@ -1,8 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Primer parcial DevOps
+#### 1- Descargar el repositorio.
+#### 2- Construir la imagen a partir del comando: docker build -t *nombre_imagen* 
+#### 3- Ejecutar el contenedor basado en esa imagen creada, con el comando: docker run --name *nombre* -d -p *puerto_local*:*puerto_contenedor* *nombre_imagen*
+#### 4- Abrir en el navegador: localhost:*puerto_establecido*
